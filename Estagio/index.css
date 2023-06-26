@@ -29,6 +29,12 @@ h1 {
   	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+h2{
+	background-color: #ffd700;
+	max-width: 42%;
+	border-radius: 1000px;
+}
+
 button {
   display: inline-block;
   padding: 10px 20px;
@@ -48,7 +54,6 @@ button:hover, .button:hover {
   background-color: #0056b3;
 }
 
-
 .imagem-logo-eba{
 	margin-right: 10%;
 	border: none;
@@ -56,6 +61,8 @@ button:hover, .button:hover {
 	text-align: right;
     	float: right;
     	margin-right: 10px auto;
+  	background-color: rgba(230, 0,0, 0.7);
+	padding: 5px;
 }
 a {
   color: #007bff;
