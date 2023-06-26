@@ -1,16 +1,80 @@
 html{
-    background-color: red;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    	background-color: #f2f2f2;
+    	color: white;
+    	font-family: 'Courier New', Courier, monospace;
 }
 
-.contato{
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+body{
+	margin-bottom: 20px;
+  	padding-bottom: 50px;
+	max-width: 1280px;
+    	font-size: 1rem;
+    	line-height: 1.5;
+    	color: #333333;
 }
 
-.imagem-logo-eba.imagem-contato{
-    width: 30px;
-    float: right;
-    margin-right: 10px;
+h1 {
+	max-width: 75%;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+  	font-size: 2rem;
+  	font-weight: bold;
+  	color: #333;
+  	text-align: center;
+  	text-transform: uppercase;
+  	letter-spacing: 2px;
+  	margin: 5px auto;
+  	padding: 20px;
+  	background-color: rgba(230, 0,0, 0.7);
+  	border-bottom: 2px solid #ccc;
+  	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: #0056b3;
+}
+
+
+.imagem-logo-eba{
+	margin-right: 10%;
+	border: none;
+    	width: 25%;
+	text-align: right;
+    	float: right;
+    	margin-right: 10px auto;
+}
+
+footer {
+  padding: 20px;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+div {
+	margin-left: 15px auto;
+}
+p {
+	margin: 0 auto;
+}
+
+.texto-contato {
+	margin-left: 10%;
 }
